@@ -10,7 +10,7 @@ years <- seq(2009, 2024)
 
 lp_17 <- partition("GERMAPARL2", protocol_lp = seq(17, 20))
 
-## Data Frame initialisieren für die Tokenanzahl pro Jahr und pro Fraktion zu speichern
+## DataFrame initialisieren um die Tokenanzahl pro Jahr und pro Fraktion zu speichern
 words_per_year <- data.frame(Fraktion = character(), Wortanzahl = integer(), stringsAsFactors = FALSE)
 
 ## Mit der for-Schleife jeweils Partitionen für alle Fraktionen und Jahre erstellen,
